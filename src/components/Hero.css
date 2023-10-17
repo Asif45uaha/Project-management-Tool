@@ -1,0 +1,122 @@
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  padding: 0px 20px;
+}
+.hero-left {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+.hero-left h4 {
+  font-size: medium;
+  font-weight: 700;
+  color: rgb(81, 220, 220);
+  border: 1.5px solid aquamarine;
+  padding: 10px;
+  width: 56%;
+  text-align: center;
+}
+.hero-left img {
+  height: 500px;
+  width: 100%;
+  object-fit: contain;
+}
+.hero-left img:hover {
+  opacity: 90%;
+  transition: 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.hero-right {
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #d0d8d8a0;
+  height: 500px;
+  border-radius: 1.3rem;
+  margin-top: 4rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.hr-first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.hr-first input {
+  padding: 10px 50px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid crimson;
+}
+.hr-first input::placeholder {
+  font-size: larger;
+}
+
+.hr-first button {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: crimson;
+  color: white;
+}
+
+.hr-second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.hr-second select {
+  padding: 10px 68px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid crimson;
+}
+.hr-second select::placeholder {
+  font-size: larger;
+}
+
+.hr-second button {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: crimson;
+  color: white;
+}
+
+.hr-third {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.hr-third input {
+  padding: 10px 50px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid crimson;
+}
+.hr-third input::placeholder {
+  font-size: larger;
+}
+
+.hr-third button {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: crimson;
+  color: white;
+}
